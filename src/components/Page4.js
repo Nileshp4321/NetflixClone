@@ -6,7 +6,7 @@ const Page4 = () => {
             <div className='page4Container download w-100 h-100 bg-gray-900 d-flex text-light justify-content-center align-items-center text-center mt-2'>
                 <div className='col-6 '>
                     <p className='text3 text-4xl font-extrabold text-break '>Watch everywhere <br></br>to watch offline</p>
-                        <p className='leading-3'>Stream unlimited movies and TV shows on your </p><p>phone, tablet, laptop, and TV.</p>
+                        <p className='leading-3 lh-lg'>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
                 </div>
                 <div className='col-6 img3'>
                     <div class="default-ltr-cache-bjn8wh">

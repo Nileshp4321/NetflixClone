@@ -125,6 +125,7 @@ body
   }
 
 }
+
 .contain
 {
   display: flex;
@@ -169,9 +170,10 @@ body
 {
   background-color: black;
 }
-@media screen and (max-width:950px){
+@media screen and  (max-width:700px)and (min-width:300px){
   .page2Container
   {
+    width: 100%;
     flex-direction: column;
     flex-wrap: wrap;
   }
@@ -179,78 +181,84 @@ body
   {
     display: block;
     width: 80%;
-    margin: 5rem;
   }
   .text1
   {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
-@media screen and (max-width:950px){
+@media screen and (max-width:700px)and (min-width:300px){
   .page3Container
   {
-    flex-direction: column;
+    width: 100%;
+    flex-direction: row;
     flex-wrap: wrap;
   }
   .img2
   {
     display: block;
-    width: 80%;
-    margin: 5rem;
+    width: 70%;
   }
   .text2
   {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
-@media screen and (max-width:950px){
+@media screen and (max-width:700px)and (min-width:300px){
   .page4Container
   {
+    width: 100%;
     flex-direction:column;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
   .img3
   {
     display: block;
-    width: 80%;
-    margin: 5rem;
+    width:50%;
+    /* margin: 5rem; */
   }
   .text3
   {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
-@media screen and (max-width:950px){
+@media screen and (max-width:700px)and (min-width:300px){
   .page5Container
   {
+    width: 100%;
     flex-direction:column;
     flex-wrap: wrap;
   }
   .img4
   {
     display: block;
-    width: 80%;
+    width: 50%;
   }
   .text4
   {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
-@media screen and (max-width:950px){
+@media screen and (max-width:700px)and (min-width:300px){
   .FAQ
   {
+    /* width: 100%; */
     flex-direction:column;
     flex-wrap: wrap;
-    width: 100%;
-    /* height: 50vh; */
+    justify-content: center;
+    height: 1500rem;
   }
   .accordioncss
   {
     display: block;
-    width: 50%;
+    width: inherit;
   }
-  .inputF
+  .heading
+  {
+    margin-bottom: 0rem;
+  }
+  /* .inputF
   {
     display: block;
     width: 100%;
@@ -259,7 +267,7 @@ body
   {
     display: block;
     width: 100%;
-  }
+  } */
 }
 @media screen and (min-width:300px) and (max-width:1311px){
   .footer

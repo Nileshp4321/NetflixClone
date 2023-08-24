@@ -18,7 +18,7 @@ const Page5 = () => {
                 </div>
                 <div className='col-5'>
                     <p className='text4 text-4xl font-extrabold text-break '>Create profiles for kids</p>
-                        <p className='leading-3'>Send children on adventures with their favourite </p><p> characters in a space made just for them—free</p><p> with your membership.</p>
+                        <p className='leading-3 lh-lg'>Send children on adventures with their favourite characters in a space made just for them-free with your membership.</p>
                 </div>
             </div>
         </>

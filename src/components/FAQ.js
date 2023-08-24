@@ -3,9 +3,9 @@ import "../App.css";
 const FAQ = () => {
     return (
         <>
-            <div className='FAQ download text-light w-100 h-100 d-flex text-center align-items-center flex-column mt-2'>
-                <h1 className='h1 mt-5 mb-5' >Frequently Asked Questions</h1>
-                <div class="accordioncss accordion w-75 ms-2 me-2 " id="accordionExample" data-bs-theme="dark">
+            <div className='container-fluid FAQ download text-light w-100 h-100 d-flex text-center justify-content-center text-center align-items-center flex-column mt-2'>
+                <h1 className='h1 heading' >Frequently Asked Questions</h1>
+                <div class="accordioncss col-12 accordion w-75" id="accordionExample" data-bs-theme="dark">
                     <div class="accordion-item ">
                         <h2 class="accordion-header text-light ">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -47,8 +47,8 @@ const FAQ = () => {
                         </div>
                     </div>
                 </div>
-                <form class="row g-3 mt-5 w-100 d-flex justify-content-center align-items-center flex-wrap">
-                    <div class="col-auto w-50 inputF">
+                <form class="row g-3 mt-2 d-flex justify-content-center align-items-center ">
+                    <div class="col-auto inputF">
                         <label for="inputPassword2" class="visually-hidden">Password</label>
                         <input type="password" class="form-control text-light w-100 mt-1 block bg-transparent" id="inputPassword2" placeholder="Email Address" />
                     </div>
