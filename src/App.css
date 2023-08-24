@@ -169,7 +169,7 @@ body
 {
   background-color: black;
 }
-@media screen and (min-width:300px) and (max-width:800px){
+@media screen and (max-width:800px){
   .page2Container
   {
     display: flex;
@@ -187,7 +187,7 @@ body
     font-size: 3rem;
   }
 }
-@media screen and (min-width:300px) and (max-width:800px){
+@media screen and (max-width:800px){
   .page3Container
   {
     display: flex;
@@ -206,7 +206,7 @@ body
   }
 }
 
-@media screen and (min-width:300px) and (max-width:800px){
+@media screen and (max-width:800px){
   .page4Container
   {
     flex-direction:column;
@@ -223,7 +223,7 @@ body
     font-size: 3rem;
   }
 }
-@media screen and (min-width:300px) and (max-width:800px){
+@media screen and (max-width:800px){
   .page5Container
   {
     flex-direction:column;
@@ -239,7 +239,7 @@ body
     font-size: 3rem;
   }
 }
-@media screen and (min-width:300px) and (max-width:800px){
+@media screen and (max-width:800px){
   .FAQ
   {
     flex-direction:column;
