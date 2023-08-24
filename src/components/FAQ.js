@@ -3,8 +3,8 @@ import "../App.css";
 const FAQ = () => {
     return (
         <>
-            <div className='container FAQ download text-light w-100 h-100 d-flex  flex-column mt-2'>
-                <h1 className='h1 heading text-center' >Frequently Asked Questions</h1>
+            <div className='container-fluid FAQ download text-light w-100 h-100 d-flex  flex-column mt-2'>
+                <h1 className='h1 heading mt-3 mb-3 text-center' >Frequently Asked Questions</h1>
                 <div className="accordioncss col-12 accordion " id="accordionExample" data-bs-theme="dark">
                     <div className="accordion-item ">
                         <h2 className="accordion-header text-light ">

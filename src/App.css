@@ -256,7 +256,9 @@ body
   {
     /* width: 100%; */
     flex-direction:column;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    margin-top: 0rem;
+    margin-bottom: 0rem;
   }
   .accordioncss
   {
