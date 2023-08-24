@@ -3,8 +3,8 @@ import "../App.css";
 const Search = () => {
     return (
         <>
-            <div className='d-flex justify-content-center align-items-center h-50 text-light text-center mt-5 '>
-                <div>
+            <div className='d-flex justify-content-center w-100 align-items-center h-100 text-light flex-row text-center mt-5 '>
+                <div className='flex-wrap'>
                     <h1 className='fs-1' >Unlimited movies, TV shows and more</h1>
                     <h6>Watch anywhere. Cancel anytime.</h6>
                     <h6>Ready to watch? Enter your email to create or restart your membership.</h6>

@@ -3,7 +3,7 @@ import "../App.css";
 const Page2 = () => {
   return (
     <>
-      <div className='page2Container container-fluid h-100 text-gray-100  w-100 page2 d-flex justify-content-center text-center align-items-center mt-2'>
+      <div className='page2Container container-fluid w-100 h-100 text-gray-100 page2 d-flex justify-content-center text-center align-items-center mt-2'>
         <div className='text1 col-6  text-justify text-center innerImg text-justify '>
           <p className='text-wrap text-3xl font-extrabold  '>Enjoy on your TV</p>
           <p className='text-break text-sm lh-lg '>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.    </p>

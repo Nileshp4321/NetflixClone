@@ -138,7 +138,7 @@ body
 }
 #root
 {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-position: center;
   background-image: url("net.png");
@@ -171,6 +171,11 @@ body
   background-color: black;
 }
 @media screen and  (max-width:700px)and (min-width:300px){
+  .getStart
+  {
+    display: block;
+    width: 75%;
+  }
   .page2Container
   {
     width: 100%;
@@ -180,14 +185,14 @@ body
   .img1
   {
     display: block;
-    width: 80%;
+    width: 100%;
   }
   .text1
   {
     font-size: 2rem;
   }
 }
-@media screen and (max-width:700px)and (min-width:300px){
+@media screen and (max-width:700px)and (min-width:350px){
   .page3Container
   {
     width: 100%;
@@ -197,7 +202,7 @@ body
   .img2
   {
     display: block;
-    width: 70%;
+    width: 55%;
   }
   .text2
   {
@@ -205,7 +210,7 @@ body
   }
 }
 
-@media screen and (max-width:700px)and (min-width:300px){
+@media screen and (max-width:700px)and (min-width:350px){
   .page4Container
   {
     width: 100%;
@@ -223,7 +228,7 @@ body
     font-size: 2rem;
   }
 }
-@media screen and (max-width:700px)and (min-width:300px){
+@media screen and (max-width:700px)and (min-width:350px){
   .page5Container
   {
     width: 100%;
@@ -233,26 +238,29 @@ body
   .img4
   {
     display: block;
-    width: 50%;
+    width: 40%;
   }
   .text4
   {
     font-size: 2rem;
   }
 }
-@media screen and (max-width:700px)and (min-width:300px){
+.FAQ
+{
+  box-sizing: border-box;
+  width: 100rem;
+  height:1500px;
+}
+@media screen and (max-width:700px)and (min-width:350px){
   .FAQ
   {
     /* width: 100%; */
     flex-direction:column;
     flex-wrap: wrap;
-    justify-content: center;
-    height: 1500rem;
   }
   .accordioncss
   {
     display: block;
-    width: inherit;
   }
   .heading
   {
@@ -269,7 +277,7 @@ body
     width: 100%;
   } */
 }
-@media screen and (min-width:300px) and (max-width:1311px){
+@media screen and  (max-width:700px)and (min-width:350px){
   .footer
   {
     flex-direction:row;
@@ -277,6 +285,17 @@ body
   }
   .footeritem
   {
-    margin:0.8rem;
+    margin:0rem;
+  }
+}
+@media screen and  (max-width:350px){
+  .footer
+  {
+    flex-direction:column;
+    flex-wrap: wrap;
+  }
+  .footeritem
+  {
+    margin:0rem;
   }
 }

@@ -15,12 +15,15 @@ function App() {
     <NavBar/>
     <Search/>
     </div>
+    <div className='container-fluid w-100 h-100'>
     <Page2/>
     <Page3/>
     <Page4/>
     <Page5/>
     <FAQ/>
     <Footer/>
+    </div>
+    
    </>
   );
 }

@@ -17,8 +17,8 @@ const Page3 = () => {
                     </div>
                 </div>
                 <div className='col-6 '>
-                    <p className='text2 text-4xl font-extrabold  '>Download your shows <br></br>to watch offline</p>
-                       <p className='lh-lg'> Save your favourites easily and always have something to watch.</p>
+                    <p className='text2 text-4xl w-100 font-extrabold  '>Download your shows <br></br>to watch offline</p>
+                       <p className='lh-lg w-100'> Save your favourites easily and always have something to watch.</p>
                 </div>
             </div>
         </>

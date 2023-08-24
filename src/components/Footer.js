@@ -5,8 +5,8 @@ const Footer = () => {
         <>
             
             <div className='footer d-flex text-light justify-content-center align-items-center row download mt-2 flex-wrap'>
-            <p className='text-center mt-5 ms-5'>Questions? Call 000-800-919-1694</p>
-                    <div className=' footeritem col-auto m-32'>
+            <p className='text-center mt-3 ms-5'>Questions? Call 000-800-919-1694</p>
+                    <div className=' footeritem col-auto m-16'>
                     <ul>
                         <li><a className='nav-link active text-light' href='#'>FAQ</a></li>
                         <li><a className='nav-link active text-light' href='#'>Media Centre</a></li>
@@ -15,7 +15,7 @@ const Footer = () => {
                         <li><a className='nav-link active text-light' href='#'>Speed Test</a></li>
                     </ul>
                 </div>
-                    <div className='footeritem col-auto m-32'>
+                    <div className='footeritem col-auto m-16'>
                     <ul>
                         <li><a className='nav-link active text-light' href='#'>Help Centre</a></li>
                         <li><a className='nav-link active text-light' href='#'>Investor Relations</a></li>
@@ -24,7 +24,7 @@ const Footer = () => {
                         <li><a className='nav-link active text-light' href='#'>Legal Notices</a></li>
                     </ul>
                 </div>
-                    <div className='footeritem col-auto m-32'>
+                    <div className='footeritem col-auto m-16'>
                     <ul>
                         <li><a className='nav-link active text-light'  href='#'>Account</a></li>
                         <li><a className='nav-link active text-light'  href='#'>Jobs</a></li>
